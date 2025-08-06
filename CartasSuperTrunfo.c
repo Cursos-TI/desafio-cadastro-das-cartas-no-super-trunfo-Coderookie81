@@ -1,8 +1,6 @@
 #include <stdio.h>
   int main() {
-      #include<stdio.h>
-int main(){
-
+    
   char Estado[20];
   int Código;
   char Cidade[20];
