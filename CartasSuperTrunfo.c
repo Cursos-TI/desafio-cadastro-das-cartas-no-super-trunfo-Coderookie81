@@ -38,7 +38,8 @@ printf("Cidade 2\n");
 
 printf("Insira o Estado:");
 scanf("%s", &Estado );
-    printf("Insira o Código da Carta:");
+  
+printf("Insira o Código da Carta:");
 scanf("%d", &Código);
 
 printf("Insira o nome da Cidade:");
@@ -49,7 +50,7 @@ scanf("%d", &População);
 
 printf("Insira o tamanho da Área em Km²:");
 scanf("%f", &km²);
-
+  
 printf("Insira o PIB:");
 scanf("%f", &PIB);
 
