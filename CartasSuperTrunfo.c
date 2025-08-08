@@ -1,6 +1,6 @@
-#include <stdio.h>
-  int main() {
-    
+#include<stdio.h>
+int main(){
+
   char Estado[20];
   int Código;
   char Cidade[20];
@@ -8,8 +8,10 @@
   float km²;
   int PIB;
   int NPT;
+  float Densidade;
+  float Pib;
 
-printf("Cidade 1\n");
+     printf("*****Cidade 1*****\n");
 
 printf("Insira o Estado:");
 scanf("%s", &Estado );
@@ -32,11 +34,17 @@ scanf("%f", &PIB);
 printf("Insira o Número de Pontos Turísticos:");
 scanf("%d", &NPT);
 
-printf("Cidade 2\n");
+Densidade= População/km²;
+printf("Densidade Populacional:%f \n", Densidade);
+
+Pib= PIB/População;
+printf("PIB per Capita: %f\n", Pib);
+
+      printf("*****Cidade 2*****\n");
 
 printf("Insira o Estado:");
 scanf("%s", &Estado );
-  
+
 printf("Insira o Código da Carta:");
 scanf("%d", &Código);
 
@@ -48,13 +56,19 @@ scanf("%d", &População);
 
 printf("Insira o tamanho da Área em Km²:");
 scanf("%f", &km²);
-  
+
 printf("Insira o PIB:");
 scanf("%f", &PIB);
 
 
 printf("Insira o Número de Pontos Turísticos:");
 scanf("%d", &NPT);
-   
-    return 0;
+
+Densidade= População/km²;
+printf("Densidade Populacional:%f \n", Densidade);
+
+Pib= PIB/População;
+printf("PIB per Capita: %f\n",Pib);
+
+
 }
