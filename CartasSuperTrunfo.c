@@ -1,22 +1,74 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+  char Estado[20];
+  int Código;
+  char Cidade[20];
+  int População;
+  float km²;
+  int PIB;
+  int NPT;
+  float Densidade;
+  float Pib;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+     printf("*****Cidade 1*****\n");
 
-    return 0;
+printf("Insira o Estado:");
+scanf("%s", &Estado );
+
+printf("Insira o Código da Carta:");
+scanf("%d", &Código);
+
+printf("Insira o nome da Cidade:");
+scanf("%s", &Cidade);
+
+printf("Insira a População Estimada:");
+scanf("%d", &População);
+
+printf("Insira o tamanho da Área em Km²:");
+scanf("%f", &km²);
+
+printf("Insira o PIB:");
+scanf("%f", &PIB);
+
+printf("Insira o Número de Pontos Turísticos:");
+scanf("%d", &NPT);
+
+Densidade= População/km²;
+printf("Densidade Populacional:%f \n", Densidade);
+
+Pib= PIB/População;
+printf("PIB per Capita: %f\n", Pib);
+
+      printf("*****Cidade 2*****\n");
+
+printf("Insira o Estado:");
+scanf("%s", &Estado );
+
+printf("Insira o Código da Carta:");
+scanf("%d", &Código);
+
+printf("Insira o nome da Cidade:");
+scanf("%s", &Cidade);
+
+printf("Insira a População Estimada:");
+scanf("%d", &População);
+
+printf("Insira o tamanho da Área em Km²:");
+scanf("%f", &km²);
+
+printf("Insira o PIB:");
+scanf("%f", &PIB);
+
+
+printf("Insira o Número de Pontos Turísticos:");
+scanf("%d", &NPT);
+
+Densidade= População/km²;
+printf("Densidade Populacional:%f \n", Densidade);
+
+Pib= PIB/População;
+printf("PIB per Capita: %f\n",Pib);
+
+
 }
